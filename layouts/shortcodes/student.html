@@ -1,0 +1,4 @@
+{{- $field := .Get "field" -}}
+{{- $data := site.Data.student -}}
+{{- $lang := .Page.Lang -}}
+{{- index (index $data $field) $lang -}}

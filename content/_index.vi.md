@@ -7,26 +7,25 @@ chapter: false
 
 # Báo cáo thực tập
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Nguyễn Văn Trường 
+&emsp; **Họ và tên:** {{< student field="full_name" >}}
 
-&emsp; **Số điện thoại:** 0989888999
+&emsp; **Số điện thoại:** {{< student field="phone" >}}
 
-&emsp; **Email:** Anguyenvan@gmail.com
+&emsp; **Email:** {{< student field="email" >}}
 
-&emsp; **Trường:** Đại học Sư phạm Kỹ thuật TP.HCM
+&emsp; **Trường:** {{< student field="university" >}}
 
-&emsp; **Ngành:** Công nghệ thông tin
+&emsp; **Ngành:** {{< student field="major" >}}
 
-&emsp; **Lớp:** AWS082025
+&emsp; **Lớp:** {{< student field="class" >}}
 
-&emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Vietnam
+&emsp; **Công ty thực tập:** {{< student field="company" >}}
 
-&emsp; **Vị trí thực tập:** FCJ Cloud Intern
+&emsp; **Vị trí thực tập:** {{< student field="position" >}}
 
-&emsp; **Thời gian thực tập:** Từ ngày 12/08/2025 đến ngày 12/11/2025
+&emsp; **Thời gian thực tập:** {{< student field="duration" >}}
 
-![Ảnh đại diện của bạn](static\images\avatar.png)
-
+![Ảnh đại diện của bạn](/images/avatar.jpg)
 
 
 ### Nội dung báo cáo
@@ -38,3 +37,4 @@ chapter: false
 5.  [Workshop](5-Workshop/)
 6.  [Tự đánh giá](6-Self-evaluation/)
 7.  [Chia sẻ, đóng góp ý kiến](7-Feedback/)
+

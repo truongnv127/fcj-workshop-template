@@ -10,23 +10,23 @@ chapter: false
 
 
 ### Student Information:
-&emsp; **Full Name:** Nguyen Van Truong 
+&emsp; **Full Name:** {{< student field="full_name" >}}
 
-&emsp; **Phone Number:** 0764648648 
+&emsp; **Phone Number:** {{< student field="phone" >}}
 
-&emsp; **Email:** truongnvops@gmail.com
+&emsp; **Email:** {{< student field="email" >}}
 
-&emsp; **University:** FPT University Ho Chi Minh
+&emsp; **University:** {{< student field="university" >}}
 
-&emsp; **Major:** Cyber Security
+&emsp; **Major:** {{< student field="major" >}}
 
-&emsp; **Class:** AWS082025
+&emsp; **Class:** {{< student field="class" >}}
 
-&emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
+&emsp; **Internship Company:** {{< student field="company" >}}
 
-&emsp; **Internship Position:** FCJ Cloud Intern
+&emsp; **Internship Position:** {{< student field="position" >}}
 
-&emsp; **Internship Duration:** From 8/9/2025 to 12/11/2025
+&emsp; **Internship Duration:** {{< student field="duration" >}}
 
 ![Your profile picture](/images/avatar.jpg)
 
@@ -40,3 +40,4 @@ chapter: false
 5.  [Workshop](5-Workshop/)
 6.  [Self-evaluation](6-Self-evaluation/)
 7.  [Sharing and Feedback](7-Feedback/)
+

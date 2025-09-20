@@ -1,7 +1,6 @@
 ---
 title: "Blog 6"
 date: 2025-01-01
-weight: 1
 chapter: false
 pre: " <b> 3.6. </b> "
 ---

@@ -1,9 +1,8 @@
 ---
 title: "Blog 1"
 date: 2025-09-13
-weight: 1
 chapter: false
-pre: " <b> 3.2. </b> "
+pre: " <b> 3.1. </b> "
 ---
 
 # AWS Named as a Leader in 2025 Gartner Magic Quadrant for Strategic Cloud Platform Services for 15 Years in a Row

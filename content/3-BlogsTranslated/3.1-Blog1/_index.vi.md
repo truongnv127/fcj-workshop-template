@@ -3,7 +3,7 @@ title: "Blog 1"
 date: 2025-09-13
 weight: 1
 chapter: false
-pre: " <b> 3.2. </b> "
+pre: " <b> 3.1. </b> "
 ---
 
 # AWS được vinh danh là Nhà lãnh đạo trong Báo cáo Magic Quadrant 2025 của Gartner về Dịch vụ Nền tảng Đám mây Chiến lược trong 15 năm liên tiếp
